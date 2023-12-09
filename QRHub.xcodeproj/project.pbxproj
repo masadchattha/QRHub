@@ -12,6 +12,8 @@
 		DCCAA31E2B238DCB00706122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCAA31D2B238DCB00706122 /* Assets.xcassets */; };
 		DCCAA3212B238DCB00706122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCAA3202B238DCB00706122 /* Preview Assets.xcassets */; };
 		DCCAA32B2B2390FE00706122 /* GenerateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCAA32A2B2390FE00706122 /* GenerateQRCode.swift */; };
+		DCCAA32E2B242BA500706122 /* Extension + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCAA32D2B242BA500706122 /* Extension + Alert.swift */; };
+		DCCAA3312B242E2400706122 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCAA3302B242E2400706122 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		DCCAA31D2B238DCB00706122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCAA3202B238DCB00706122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCCAA32A2B2390FE00706122 /* GenerateQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRCode.swift; sourceTree = "<group>"; };
+		DCCAA32D2B242BA500706122 /* Extension + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Alert.swift"; sourceTree = "<group>"; };
+		DCCAA3302B242E2400706122 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				DCCAA3272B23906B00706122 /* App */,
 				DCCAA3292B23908C00706122 /* Assets */,
+				DCCAA32F2B242E0C00706122 /* Generic */,
+				DCCAA32C2B242B8000706122 /* Extensions */,
 				DCCAA3282B23907C00706122 /* View */,
 				DCCAA31F2B238DCB00706122 /* Preview Content */,
 			);
@@ -92,6 +98,22 @@
 				DCCAA31D2B238DCB00706122 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCCAA32C2B242B8000706122 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCCAA32D2B242BA500706122 /* Extension + Alert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCCAA32F2B242E0C00706122 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				DCCAA3302B242E2400706122 /* Alert.swift */,
+			);
+			path = Generic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +188,8 @@
 			files = (
 				DCCAA31C2B238DCA00706122 /* ContentView.swift in Sources */,
 				DCCAA31A2B238DCA00706122 /* QRHubApp.swift in Sources */,
+				DCCAA32E2B242BA500706122 /* Extension + Alert.swift in Sources */,
+				DCCAA3312B242E2400706122 /* Alert.swift in Sources */,
 				DCCAA32B2B2390FE00706122 /* GenerateQRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
